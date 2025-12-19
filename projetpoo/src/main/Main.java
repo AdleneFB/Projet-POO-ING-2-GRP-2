@@ -7,8 +7,8 @@ import sys_Order.Order;
 import sys_Order.StandardPackage;
 import simulation.simulator;
 
-public class main {
-	public static void main(String[] args) {
+public class Main {
+	public static void Main(String[] args) {
 
         position base = new position(0, 0);
         Mapc map = new Mapc();
