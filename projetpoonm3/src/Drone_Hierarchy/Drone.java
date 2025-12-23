@@ -40,7 +40,6 @@ public abstract class Drone {
 	        double consumption = calculateConsumption(distance);
 
 	        battery -= consumption;
-	        distance += distance;
 	        position = destination;
 	        positionHistory.add(destination);
 	    }
@@ -94,3 +93,4 @@ public abstract class Drone {
 	        return this.id == other.id;
 	    }
 }
+
