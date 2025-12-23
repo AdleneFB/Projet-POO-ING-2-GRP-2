@@ -37,8 +37,9 @@ public class simulator {
 
     private void printstats() {
     	System.out.println("=== SIMULATION RESULTS ===");
-    	System.out.println("Total deliveries: "+ controlcenter.totalDeliveries());
+    	System.out.println("Total deliveries: "+ control.controlcenter.totalDeliveries());
     	for(Drone drone : controlcenter.getFleet()) {
     		System.out.println(drone);
     	}}	
 	}
+
